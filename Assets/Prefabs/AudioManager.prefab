@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9052318292816561997
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9052318292816561999}
+  - component: {fileID: 9052318292816561996}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9052318292816561999
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9052318292816561997}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 221.42265, y: 234.52261, z: -41.777287}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9052318292816561996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9052318292816561997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1ceb3deaf47ec1469862dd7bee3424e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - clip: {fileID: 8300000, guid: c8ed7ae54b786fd4f9112c1b1d120a09, type: 3}
+    name: CloudDieSound
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: f1fd9dba58d0c854dbe53d24d307aff2, type: 3}
+    name: DemonSound
+    volume: 1
+    pitch: 1.04
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 5d8e69e98459998478ea42bdf47bb306, type: 3}
+    name: FireSound
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: b2ec5d06272475e4cbc93459f5085bb1, type: 3}
+    name: Hurt1
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 595d0e216121150458143a8fe5b2e974, type: 3}
+    name: Hurt2
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 458d7f02b95169a48918e3c9d201abb7, type: 3}
+    name: MainTheme
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: a393e8146122584499fd60b8939ad5bd, type: 3}
+    name: ProjectileSound
+    volume: 0.15
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: a4ca1d2d527202849b597e2a6db1d9ee, type: 3}
+    name: SpellLaunch
+    volume: 0.15
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 7a0046bdcdd8a3f409570a3abe4bec02, type: 3}
+    name: SpellFail
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 3f08afa70b381534eb7b8766dea8a782, type: 3}
+    name: Potion
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
